@@ -6,10 +6,10 @@
  *
  * Return: 1 if the list has a cycle, 0 if it doesn't
  */
-int check_cycle(listint_tile *list)
+int check_cycle(listint_t *list)
 {
-	listint_tile *slow = list;
-	listint_tile *fast = list;
+	listint_t *slow = list;
+	listint_t *fast = list;
 
 	if (!list)
 		return (0);
